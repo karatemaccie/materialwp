@@ -31,7 +31,7 @@
 			</div><!-- .entry-content -->
 
 			<footer class="entry-footer">
-				<?php edit_post_link( __( '', 'materialwp' ), '<button class="btn btn-fab btn-raised btn-edit"><i class="mdi-image-edit"></i>', '</button>' ); ?>
+				<?php edit_post_link( __( 'Edit', 'materialwp' ), '<span class="edit-link">', '</span>' ); ?>
 			</footer><!-- .entry-footer -->
 		</div> <!-- .entry-container -->
 	</div> <!-- .card -->
