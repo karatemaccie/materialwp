@@ -816,3 +816,7 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.navbar-inverse.navbar {
+  background-color: #2979ff;
+}
