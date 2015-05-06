@@ -83,7 +83,7 @@ function materialwp_widgets_init() {
 		'name'          => __( 'Sidebar', 'materialwp' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s"><div class="panel panel-warning">',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s"><div class="panel panel-material-blue-A200">',
 		'after_widget'  => '</div></aside>',
 		'before_title'  => ' <div class="panel-heading"><h3 class="panel-title">',
 		'after_title'   => '</h3></div>',

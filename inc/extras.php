@@ -136,7 +136,10 @@ add_filter( 'the_content_more_link', 'modify_read_more_link' );
  */
 function custom_edit_post_link($output) {
 
- $output = str_replace('class="post-edit-link"', 'class="btn btn-danger btn-xs post-edit-link"', $output);
+ $output = str_replace('class="post-edit-link"', 'class="btn btn-fab btn-raised btn-material-blue-A200"', $output);
+ $output = str_replace('>Edit', '><i class="mdi-image-edit" style="color: #ffffff"></i>', $output);
+
+ //$output = "<button class='btn btn-fab btn-raised btn-material-blue-A200'><i class='mdi-image-edit' style='color: #ffffff'></i></button>";
  return $output;
 }
 add_filter('edit_post_link', 'custom_edit_post_link');
